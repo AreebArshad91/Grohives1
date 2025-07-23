@@ -274,7 +274,7 @@ body{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background: url('../images/arrow-dark.svg') center center no-repeat, 
+	background: url('arrow-dark.svg') center center no-repeat, 
 	var(--accent-gradient);
     background-size: 24px auto, cover;
 	transform: translate(50px, 0px);
@@ -283,7 +283,7 @@ body{
 
 
 .btn-default:hover::before {
-	background: url('../images/arrow-dark.svg') center center no-repeat, 
+	background: url('arrow-dark.svg') center center no-repeat, 
 	var(--primary-color); /* or a gradient */
 	background-size: 24px auto, cover;
 	transform: translate(50px, 0px) rotate(45deg);
@@ -358,7 +358,7 @@ body{
     position: absolute;
     top: 50%;
     right: 0;
-    background-image: url('../images/arrow-accent.svg');
+    background-image: url('arrow-accent.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -484,7 +484,7 @@ body{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url('../images/icon-sub-heading.svg') no-repeat;
+    background: url('icon-sub-heading.svg') no-repeat;
     background-position: left center;
     background-size: cover;
     width: 16px;
@@ -1047,7 +1047,7 @@ body:has(.offcanvas){
 }
 
 .hero.bg-image{
-	background: url('../images/hero-bg.jpg') no-repeat;
+	background: url('hero-bg.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 265px 0 165px;
@@ -1060,7 +1060,7 @@ body:has(.offcanvas){
 
 .hero.hero-slider-layout .hero-slide{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('hero-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1068,7 +1068,7 @@ body:has(.offcanvas){
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2{
-	background: url('../images/hero-bg-2.jpg');
+	background: url('hero-bg-2.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1172,7 +1172,7 @@ body:has(.offcanvas){
     bottom: -20px;
     right: -50px;
 	transform: translateX(100%);
-    background: url('../images/arrow-hero-content.svg');
+    background: url('arrow-hero-content.svg');
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
@@ -1256,7 +1256,7 @@ body:has(.offcanvas){
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	background: url('../images/hero-img-left-arrow.svg') no-repeat;
+	background: url('hero-img-left-arrow.svg') no-repeat;
 	background-position: center left;
 	background-size: contain;
 	width: 135px;
@@ -1270,7 +1270,7 @@ body:has(.offcanvas){
 	position: absolute;
 	top: 50%;
 	right: 11px;
-	background: url('../images/hero-img-right-arrow.svg') no-repeat;
+	background: url('hero-img-right-arrow.svg') no-repeat;
 	background-position: center right;
 	background-size: contain;
 	width: 135px;
@@ -1443,7 +1443,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     bottom: 80px;
-    background: url(../images/section-bg-shape-1.png) no-repeat;
+    background: url(section-bg-shape-1.png) no-repeat;
     background-position: right bottom;
     background-size: cover;
     width: 250px;
@@ -1465,7 +1465,7 @@ body:has(.offcanvas){
 
 .about-us-image{
 	position: relative;
-	background: url('../images/about-us-bg-shape.svg') no-repeat ;
+	background: url('about-us-bg-shape.svg') no-repeat ;
     background-position: top 60px left 45px;
     background-size: auto;
 	padding: 0 0 190px 190px;
@@ -1652,7 +1652,7 @@ body:has(.offcanvas){
 	position: relative;
 	border: 5px solid #6FFDD5;
 	border-style: dotted;
-	background: url('../images/service-item-bg.svg') no-repeat;
+	background: url('service-item-bg.svg') no-repeat;
 	background-position: top left;
 	background-size: auto;
 	text-align: center;
@@ -1794,7 +1794,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 80px;
-    background: url(../images/Ai.png) no-repeat;
+    background: url(Ai.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -2216,7 +2216,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     top: 80px;
-    background: url(../images/section-bg-shape-3.png) no-repeat;
+    background: url(section-bg-shape-3.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -2262,7 +2262,7 @@ body:has(.offcanvas){
 .feature-item{
 	width: calc(23.33% - 22.5px);
 	position: relative;
-	background: url('../images/feature-item-bg.svg') no-repeat ;
+	background: url('feature-item-bg.svg') no-repeat ;
 	background-position: top left;
 	background-size: auto;
 	border: 1px solid var(--divider-color);
@@ -2449,7 +2449,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 80px;
-    background: url(../images/section-bg-shape-4.png) no-repeat;
+    background: url(section-bg-shape-4.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -2629,7 +2629,7 @@ body:has(.offcanvas){
 	display:inline-block;
 	justify-content:center;
 	align-items: center;
-	background: url(../images/pricing-item-bg-shape.svg) var(--secondary-color);
+	background: url(pricing-item-bg-shape.svg) var(--secondary-color);
 	background-position: top left;
 	background-size: auto;
 	/* border: 1px solid var(--divider-color); */
@@ -2771,7 +2771,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 80px;
     right: -20px;
-    background: url(../images/section-bg-shape-5.png) no-repeat;
+    background: url(section-bg-shape-5.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -2963,7 +2963,7 @@ body:has(.offcanvas){
 
 .testimonial-slider{
 	position: relative;
-	background: url('../images/testimonial-item-bg.svg') no-repeat;
+	background: url('testimonial-item-bg.svg') no-repeat;
 	background-position: top left;
 	background-size: auto;
 	border: 1px solid var(--divider-color);
@@ -2990,7 +2990,7 @@ body:has(.offcanvas){
 }
 
 .testimonial-slider .swiper{
-	background: url(../images/testimonial-quote.svg) no-repeat;
+	background: url(testimonial-quote.svg) no-repeat;
     background-position: right 60px top 30px;
     background-size: 190px auto;
 }
@@ -3079,7 +3079,7 @@ body:has(.offcanvas){
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('../images/arrow-dark.svg') no-repeat;
+    background: url('arrow-dark.svg') no-repeat;
     background-position: center center;
     background-size: 26px auto;
     display: flex;
@@ -3141,7 +3141,7 @@ body:has(.offcanvas){
 }
 
 .accordion-body {
-  background: url(../images/working-step-item-bg.svg) no-repeat var(--dark-color);
+  background: url(working-step-item-bg.svg) no-repeat var(--dark-color);
   background-position: top left;
   background-size: auto;
   /* border: 1px solid var(--divider-color); */
@@ -3220,7 +3220,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     top: 12%;
-    background: url(../images/section-bg-shape-7.png) no-repeat;
+    background: url(section-bg-shape-7.png) no-repeat;
     background-position: right center;
     background-size: cover;
     width: 250px;
@@ -3237,7 +3237,7 @@ body:has(.offcanvas){
 
 .work-together-content{
 	position: relative;
-	background: url('../images/work-together-bg.png') no-repeat;
+	background: url('work-together-bg.png') no-repeat;
 	background-position: center center;
 	background-size: auto;
 	text-align: center;
@@ -3251,7 +3251,7 @@ body:has(.offcanvas){
 	right: 0;
     top: 0;
 	bottom: 0;
-    background: url(../images/work-together-bg-gradient.png) no-repeat;
+    background: url(work-together-bg-gradient.png) no-repeat;
     background-position: center center;
     background-size: contain;
     width: 100%;
@@ -3561,7 +3561,7 @@ body:has(.offcanvas){
 
 .page-header{
     position: relative;
-	background: url(../images/page-header-bg.jpg);
+	background: url(page-header-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -3667,7 +3667,7 @@ body:has(.offcanvas){
 .vision-mission-content{
 	position: relative;
 	border: 1px solid var(--divider-color);
-	background: url('../images/mission-vision-item-bg.svg') no-repeat;
+	background: url('mission-vision-item-bg.svg') no-repeat;
 	background-position: top left;
 	background-size: auto;
 	backdrop-filter: blur(100px);
@@ -3766,7 +3766,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 80px;
     right: -20px;
-    background: url(../images/section-bg-shape-8.png) no-repeat;
+    background: url(section-bg-shape-8.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -3903,7 +3903,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 80px;
-    background: url(../images/section-bg-shape-3.png) no-repeat;
+    background: url(section-bg-shape-3.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -4039,7 +4039,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     top: 30%;
-    background: url(../images/section-bg-shape-5.png) no-repeat;
+    background: url(section-bg-shape-5.png) no-repeat;
     background-position: right center;
     background-size: cover;
     width: 250px;
@@ -4053,7 +4053,7 @@ body:has(.offcanvas){
 .our-fact-box{
 	position: relative;
 	border: 1px solid var(--divider-color);
-	background: url('../images/our-fact-box-bg.svg') no-repeat;
+	background: url('our-fact-box-bg.svg') no-repeat;
 	background-position: top left;
 	background-size: auto;
 	display: flex;
@@ -4226,7 +4226,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-2.png) no-repeat;
+    background: url(section-bg-shape-2.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -4252,7 +4252,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 120px;
     right: -20px;
-    background: url(../images/section-bg-shape-5.png) no-repeat;
+    background: url(section-bg-shape-5.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -4269,7 +4269,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 50%;
     left: -20px;
-    background: url(../images/section-bg-shape-6.png) no-repeat;
+    background: url(section-bg-shape-6.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -4399,7 +4399,7 @@ body:has(.offcanvas){
 
 .process-step-content{
     position: relative;
-    background: url(../images/service-single-step-bg.svg) no-repeat;
+    background: url(service-single-step-bg.svg) no-repeat;
     background-size: auto;
     background-position: top left;
     backdrop-filter: blur(100px);
@@ -4553,7 +4553,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../images/arrow-accent.svg) no-repeat;
+    background: url(arrow-accent.svg) no-repeat;
     background-position: right center;
     background-size: cover;
     width: 26px;
@@ -4567,7 +4567,7 @@ body:has(.offcanvas){
 
 .sidebar-cta-box{
     position: relative;
-    background: url(../images/sidebar-cta-bg.svg) no-repeat;
+    background: url(sidebar-cta-bg.svg) no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -4661,7 +4661,7 @@ body:has(.offcanvas){
 }
 
 .faq-cta-box{
-	background: url(../images/faq-cta-bg-shape.svg) var(--secondary-color);
+	background: url(faq-cta-bg-shape.svg) var(--secondary-color);
 	background-repeat: no-repeat;
     background-position: top left;
     background-size: auto;
@@ -4958,7 +4958,7 @@ body:has(.offcanvas){
 
 .post-entry blockquote{
 	position: relative;
-	background: url(../images/icon-blockquote.svg) no-repeat;
+	background: url(icon-blockquote.svg) no-repeat;
 	border: 1px solid var(--divider-color);
 	backdrop-filter: blur(100px);
 	-webkit-backdrop-filter: blur(100px);
@@ -5080,7 +5080,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 80px;
     left: -20px;
-    background: url(../images/section-bg-shape-5.png) no-repeat;
+    background: url(section-bg-shape-5.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -5106,7 +5106,7 @@ body:has(.offcanvas){
     position: absolute;
     right: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-2.png) no-repeat;
+    background: url(section-bg-shape-2.png) no-repeat;
     background-position: right top;
     background-size: contain;
     width: 250px;
@@ -5123,7 +5123,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 70%;
-    background: url(../images/section-bg-shape-1.png) no-repeat;
+    background: url(section-bg-shape-1.png) no-repeat;
     background-position: left bottom;
     background-size: cover;
     width: 250px;
@@ -5368,7 +5368,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-4.png) no-repeat;
+    background: url(section-bg-shape-4.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -5394,7 +5394,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-3.png) no-repeat;
+    background: url(section-bg-shape-3.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -5695,7 +5695,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 120px;
     left: -20px;
-    background: url(../images/section-bg-shape-6.png) no-repeat;
+    background: url(section-bg-shape-6.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -5721,7 +5721,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 20%;
-    background: url(../images/section-bg-shape-1.png) no-repeat;
+    background: url(section-bg-shape-1.png) no-repeat;
     background-position: left bottom;
     background-size: cover;
     width: 250px;
@@ -5871,7 +5871,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-3.png) no-repeat;
+    background: url(section-bg-shape-3.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -5916,7 +5916,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     top: 120px;
-    background: url(../images/section-bg-shape-4.png) no-repeat;
+    background: url(section-bg-shape-4.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -6014,7 +6014,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 120px;
     left: -20px;
-    background: url(../images/section-bg-shape-6.png) no-repeat;
+    background: url(section-bg-shape-6.png) no-repeat;
     background-position: left top;
     background-size: contain;
     width: 250px;
@@ -6101,7 +6101,7 @@ body:has(.offcanvas){
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../images/arrow-accent.svg) no-repeat;
+    background: url(arrow-accent.svg) no-repeat;
     background-position: right center;
     background-size: cover;
     width: 26px;
@@ -6128,7 +6128,7 @@ body:has(.offcanvas){
     position: absolute;
     left: -20px;
     bottom: 80px;
-    background: url(../images/section-bg-shape-3.png) no-repeat;
+    background: url(section-bg-shape-3.png) no-repeat;
     background-position: left bottom;
     background-size: cover;
     width: 250px;
@@ -6153,7 +6153,7 @@ body:has(.offcanvas){
     top: 0;
     right: 50%;
 	transform: translateX(100%);
-    background: url(../images/arrow-hero-content.svg);
+    background: url(arrow-hero-content.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -8761,7 +8761,7 @@ body:has(.offcanvas){
 }
 .popup-content {
 	border: 1px solid var(--divider-color);
-		background: url('../images/service-item-bg.svg') no-repeat;
+		background: url('service-item-bg.svg') no-repeat;
 		background-position: top left;
 		background-size: auto;
 		text-align: center;
@@ -8857,7 +8857,7 @@ margin-top:20px;
 	position: relative;
 	width: calc(50% - 15px);
 	height: 550px;
-    background: url(../images/pricing-item-bg-shape.svg) var(--secondary-color);
+    background: url(pricing-item-bg-shape.svg) var(--secondary-color);
 	background-repeat: no-repeat;
     background-position: top left;
     background-size: auto;
@@ -9053,7 +9053,7 @@ html {
 
 .our-tools-ticker {
   /* background: var(--accent-gradient, #f5f5f5); */
-  background: url(../images/pricing-item-bg-shape.svg) var(--secondary-color);
+  background: url(pricing-item-bg-shape.svg) var(--secondary-color);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: auto;
